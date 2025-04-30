@@ -23,3 +23,7 @@ kops update cluster --name gopi.k8s.local --yes --admin
 kops update cluster     #command---> cluster-name, --yes, --admin
 
 kops validate cluster --wait 10m     #command
+
+kops get cluster         #command to view the cluster
+
+kops delete cluster --name gopi.k8s.local --yes      #command to delete cluster
